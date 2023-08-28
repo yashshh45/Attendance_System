@@ -1,0 +1,67 @@
+/* App styles */
+.attendance-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background: linear-gradient(to bottom, #26a69a, #ff7043);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Attendance Record styles */
+.attendance-record {
+  width: 90%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.attendance-record h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #26a69a; /* Teal */
+  color: white;
+}
+
+/* Attendance cell styles */
+.attendance-cell {
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.attendance-cell.present {
+  background-color: #80cbc4; /* Light teal for Present */
+  color: #004d40; /* Dark teal text */
+}
+
+.attendance-cell.absent {
+  background-color: #ffab91; /* Light coral for Absent */
+  color: #bf360c; /* Dark coral text */
+}
+
+.attendance-cell:hover {
+  background-color: #e0e0e0; /* Light gray on hover */
+}
