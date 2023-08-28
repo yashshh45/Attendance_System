@@ -18,13 +18,13 @@ The Attendance App is a simple web application that allows you to manage and tra
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/attendance-app.git
+   git clone https://github.com/yashshh45/Attendance_System.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd attendance-app
+   $ cd Attendance_System
    ```
 
 3. Install the required dependencies:
